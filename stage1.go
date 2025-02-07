@@ -35,7 +35,7 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-go 
+
 	response := Response{
 		Email:          "dotolulope2@gmail.com",
 		CurrentDatetime: time.Now().UTC().Format(time.RFC3339),
