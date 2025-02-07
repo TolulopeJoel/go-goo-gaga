@@ -39,7 +39,7 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 	response := Response{
 		Email:          "dotolulope2@gmail.com",
 		CurrentDatetime: time.Now().UTC().Format(time.RFC3339),
-		GithubURL:      "https://github.com/tolulopejoel/go",
+		GithubURL:      "https://github.com/tolulopejoel/go-goo-gaga",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
