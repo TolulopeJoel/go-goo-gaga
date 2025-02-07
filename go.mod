@@ -1,3 +1,3 @@
 module github.com/TolulopeJoel/go-goo-gagaa
 
-go 1.23.6
+go 1.23.4
