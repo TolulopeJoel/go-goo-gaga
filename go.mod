@@ -1,3 +1,3 @@
-module myfirstgocode
+module github.com/TolulopeJoel/go-goo-gagaa
 
-go 1.19
+go 1.23.6
